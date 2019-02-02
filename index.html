@@ -26,18 +26,6 @@
                 <li><a class="nav-link" href="#contact">Contact Me</a></li>
             </ul>
         </nav>
-        <div class="mobile">
-            <button id="burger" class="open-mobile-nav">
-                <span class="burger"></span>
-            </button>
-            <!--<nav class="mobile-nav" id="mobile-nav">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact Me</a></li>
-                </ul>
-            </nav>-->
-        </div>
     </navbar>
 
     <section id="welcome-section">
@@ -49,8 +37,9 @@
     </section>
 
     <section class="flex-section" id="about">
-        <h1>Who I am</h1>
-        <img src="http://via.placeholder.com/1280x900">
+        <h1>This is me</h1>
+        <img src="https://scontent.fmel8-1.fna.fbcdn.net/v/t1.0-9/10686981_10154835247145195_2750169257663180427_n.jpg?_nc_cat=109&_nc_ht=scontent.fmel8-1.fna&oh=1908857a96fb8589fc5447af16cb02ef&oe=5CEBF6A3">
+        <h2>These are some tools I use</h2>
         <div id="languages">
             <i class="fab fa-angular"></i>
             <i class="fab fa-php"></i>
@@ -66,7 +55,6 @@
 
     <section class="flex-section" id="projects">
         <h1>Stuff I've made</h1>
-        <h2>freeCodeCamp</h2>
         <h2>Alexa Skills</h2>
         <p>I'm still a bit of a novice with these, but I see voice as an important interace in the future,
             so I'm slowly learning how it all works</p>
@@ -125,15 +113,4 @@
     </footer>
 </body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<script>
-    // Burger dynamics
-    let burger = document.getElementById('burger'),
-        nav = document.getElementById('mobile-nav');
-
-    burger.addEventListener('click', function (e) {
-        this.classList.toggle('is-open');
-        nav.classList.toggle('is-open');
-    });
-</script>
-
 </html>

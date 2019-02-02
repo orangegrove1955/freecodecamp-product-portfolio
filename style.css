@@ -1,5 +1,4 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700";
-@import 'mobilenav.css';
 
 *{
     font-family: 'Lato', sans-serif;
@@ -60,17 +59,10 @@ body{
     color: black;
 }
 
-.mobile{
-    display: none;
-}
-
 @media screen and (max-width: 600px){
-    .desktop{
-        display: none;
-    }
-
-    .mobile{
-        display: flex;
+    #navbar, #nav-list{
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
